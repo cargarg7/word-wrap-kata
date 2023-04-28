@@ -4,6 +4,6 @@ import { fibonacci } from './index';
 
 describe('Fibonacci', () => {
     it('Should return 0 when input is 0', () => {
-        expect(fibonacci).toBe(0);
+        expect(fibonacci(0)).toBe(0);
     })
 })

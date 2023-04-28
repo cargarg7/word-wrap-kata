@@ -1,2 +1,3 @@
-export function fibonacci(payload) {
+export function fibonacci(payload: number): number {
+    return 0;
 }
