@@ -13,5 +13,6 @@ describe('Fibonacci', () => {
 
     it('Should return the addition of the preceding two fibonaccis values', () => {
         expect(fibonacci(2)).toBe(fibonacci(0) + fibonacci(1));
+        expect(fibonacci(3)).toBe(fibonacci(1) + fibonacci(2));
     });
 })
