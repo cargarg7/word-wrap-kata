@@ -10,4 +10,8 @@ describe('Fibonacci', () => {
     it('Should return 1 when input is 1', () => {
         expect(fibonacci(1)).toBe(1);
     });
+
+    it('Should return the addition of the preceding two fibonaccis values', () => {
+        expect(fibonacci(2)).toBe(fibonacci(0) + fibonacci(1));
+    });
 })
